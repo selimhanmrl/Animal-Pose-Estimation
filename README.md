@@ -30,6 +30,10 @@ We can start oour training part
     
  After Creating Model we can analyze our videos 
  
+ For exracting keypoint execute analysis.py folder
+    
+        python analysis.py 'video path'
+ 
 (!!!! Our tracking code is specific for our owned model so it can give bad results for errors for make own model please contact me if you have problem.)
     Before analyzing you should change which part you will follow and change in code
     In tracking.py folder you should change part x and y coordinates in line 96-97 and 119-120
@@ -54,6 +58,9 @@ Demo video for pose estimation model in mouses
 
 https://www.youtube.com/watch?v=M6zKXrCf1Xc
 
+You can try already created model and dataset for demo. Here is dataset and model file
+
+https://drive.google.com/drive/folders/1iQWga7RkzwsJLt-luHcbIbVBmoWrt9f9?usp=sharing
 
 For asking any questions please contact me 
     
