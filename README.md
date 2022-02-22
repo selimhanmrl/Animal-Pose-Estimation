@@ -1,4 +1,4 @@
-# Keypoint-Prediction-Model
+# My Gradiation project -- Own Animal Pose Estimation model
 With own dataset create your own pose estimation model for any object which you labeled
 
 
