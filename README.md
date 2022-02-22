@@ -11,7 +11,7 @@ After installing needed libraries create own dataset
 It depends on your object i will give example with mouses. 
 In this example i labeled keypoints as     head, right ear, left ear, body, tail head, tail and hold all keypoints in csv file. 
 
-Csv file will be like '(Image-Path)' - Keypoints' x and y locations
+Csv file's coloumns should be like '(Image-Path)', Keypoints' x locations, Keypoints' y locations
 
 You should change some numbers in codes depends on your dataset. 
 
@@ -49,6 +49,10 @@ We can start oour training part
     
 
 You can check folder for keypoints result of experiments and video for pose estimation.
+
+Demo video for pose estimation model in mouses
+
+https://www.youtube.com/watch?v=M6zKXrCf1Xc
 
 
 For asking any questions please contact me 
