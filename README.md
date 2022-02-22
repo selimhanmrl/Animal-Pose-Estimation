@@ -1,4 +1,4 @@
-# My Gradiation project -- Own Animal Pose Estimation model
+# My Gradiation Project -- Own Animal Pose Estimation Model
 With own dataset create your own pose estimation model for any object which you labeled
 
 
