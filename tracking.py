@@ -29,7 +29,7 @@ df = pd.read_csv(keypoint_file)
 
 _, frame1 = cap.read()
 pd_ = PolygonDrawer("Polygon",frame1)
-#image = pd_.run(frame1)
+image = pd_.run(frame1)
 
 #fps for calculate time
 fps = cap.get(5)
@@ -37,7 +37,6 @@ frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
 pts = []
 if exp_type == 'plusmaze':
-    pd_.points = [[(111.825, 102), (170.1, 105), (170.1, 117), (110.075, 116)],[(96.425, 117), (96.6, 100), (39.725, 102), (39.025, 114)], [(99.225, 14), (111.3, 15), (96.775, 100), (111.65, 102)], [(99.225, 14), (111.3, 15), (96.775, 100), (111.65, 102)]]
 
     polyRight = Polygon(pd_.points[0])
 
@@ -49,7 +48,6 @@ if exp_type == 'plusmaze':
 
 
 if exp_type == 'openfield':
-    pd_.points =   [[(50.206896551724135, 61), (53.10344827586207, 191), (151.10344827586206, 191), (152.06896551724137, 60)],[(71.93103448275862, 82), (72.41379310344827, 169), (132.27586206896552, 169), (130.58620689655172, 82)]]
                   
     polyOutside  = Polygon(pd_.points[0])
 
