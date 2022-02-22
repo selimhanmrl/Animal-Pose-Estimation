@@ -30,6 +30,10 @@ We can start oour training part
     
  After Creating Model we can analyze our videos 
  
+(!!!! Our tracking code is specific for our owned model so it can give bad results for errors for make own model please contact me if you have problem.)
+    Before analyzing you should change which part you will follow and change in code
+    In tracking.py folder you should change part x and y coordinates in line 96-97 and 119-120
+ 
     python tracking.py 'video path' 'experiment type' 'experiment area exact lenght'
  
  For now as experiment are we use 'openfield' of 'plusmaze' while analyzing videos you should select areas for tracking.
